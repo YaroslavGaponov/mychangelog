@@ -1,0 +1,15 @@
+{
+  "name": "mychangelog",
+  "version": "0.0.1",
+  "description": "simple tool for convert git commits to changelog markdown",
+  "main": "index.js",
+  "scripts": {
+    "changelog": "node ./index.js > CHANGELOG.md"
+  },
+  "keywords": [
+    "git",
+    "changelog"
+  ],
+  "author": "Yaroslav Gaponov",
+  "license": "MIT"
+}
